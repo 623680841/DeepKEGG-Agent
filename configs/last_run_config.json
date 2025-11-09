@@ -1,0 +1,31 @@
+{
+  "task": "classification",
+  "disease": "PRAD",
+  "modalities": [
+    "mRNA",
+    "miRNA",
+    "SNV"
+  ],
+  "model": "DeepKEGG_v2",
+  "run_biomarker_discovery": false,
+  "cv": {
+    "type": "kfold",
+    "k": 10,
+    "stratified": true,
+    "seed": 42
+  },
+  "paths": {
+    "clinical": "data/PRAD/response.csv",
+    "mrna": "data/PRAD/mRNA_data.csv",
+    "mirna": "data/PRAD/miRNA_data.csv",
+    "snv": "data/PRAD/snv_data.csv",
+    "id_column": "index",
+    "label_column": "response"
+  },
+  "_meta": {
+    "created_utc": "2025-11-03T04:44:03.464098Z",
+    "source": "step2_nl.py (LLM)",
+    "provider": "deepseek",
+    "user_nl": "use DeepKEGG_v2 for PRAD with all omics"
+  }
+}

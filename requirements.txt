@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+tensorflow
+tqdm
+pathlib
+requests
+torch
+torchvision
+torchaudio
+torch-geometric
+mamba-ssm # 如果您成功安装了，就保留；否则可以注释掉或替换为 mamba_surrogate_model 的依赖
+bioservices
