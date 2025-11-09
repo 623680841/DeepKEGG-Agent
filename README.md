@@ -42,7 +42,7 @@ The framework is structured into four primary stages, designed to systematically
 1.  **Clone the repository:**
     ```bash
     git clone [your-repository-url]
-    cd zsy_DeepKEGGAgent
+    cd DeepKEGG-Agent
     ```
 
 2.  **Create a virtual environment (recommended):**
