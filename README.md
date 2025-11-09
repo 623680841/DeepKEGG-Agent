@@ -1,6 +1,4 @@
 # DeepKEGG-Agent
-![Uploading 新建 PPT 演示文稿 (2)_20251030211618_03(1)(1).png…]()
-
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -14,6 +12,7 @@ An Interactive AI Agent for Automated Multi-Omics Cancer Outcome Prediction.
 Accurate prediction of cancer outcomes from multi-omics data is essential for advancing precision oncology but remains constrained by complex scripting and high technical barriers. To address this challenge, we present **DeepKEGG-Agent**, an interactive framework that automates the entire workflow for multi-omics-based cancer outcome prediction through a dialogue-driven paradigm. A large language model (LLM) serves as the core agent, orchestrating data loading, feature integration, model training, and results evaluation. Users can specify datasets, select models, and configure experiments through a natural language interface without writing code. The system supports both conventional machine learning methods and pathway-informed deep models, including a graph neural network (`DeepKEGG_v2`) that models pathway-level interactions guided by KEGG knowledge. By lowering technical barriers and enhancing reproducibility, DeepKEGG-Agent makes complex multi-omics modeling more accessible to a broader range of biomedical researchers.
 
 ## ✨ Key Features
+<img width="4538" height="2842" alt="新建 PPT 演示文稿 (2)_20251030211618_03(1)(1)" src="https://github.com/user-attachments/assets/04b232b9-4e59-4752-afc4-91457c155d6e" />
 
 - **💬 Dialogue-Driven Workflow**: Control the entire modeling pipeline using simple, natural language commands. No coding required.
 - **🤖 Automated End-to-End Pipeline**: Automates all stages from data loading and validation to model training, evaluation, and reporting.
@@ -28,7 +27,8 @@ Accurate prediction of cancer outcomes from multi-omics data is essential for ad
 
 The framework is structured into four primary stages, designed to systematically translate high-level user intent into concrete computational results.
 
- ![Uploading 论文流程图_20251102170858_05(1).png…]()
+
+<img width="5120" height="2880" alt="论文流程图_20251102170858_05(1)" src="https://github.com/user-attachments/assets/3165166f-0e4b-4093-a08c-25bfdb1966a4" />
 
 
 
